@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivash N | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Nivash<span class="accent">.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section hidden">
+        <div class="home-container">
+            <div class="home-content">
+                <p class="greeting" id="greeting-text">Welcome to my portfolio!</p>
+                <h1 class="name">Hi, I'm <span class="accent">Nivash N</span></h1>
+                <h2 class="title">Information Technology Student</h2>
+                <p class="summary">Aspiring full-stack developer passionate about building scalable web applications and learning new technologies.</p>
+                <div class="home-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="image-wrapper">
+                    <img src="1768915476208 (1).jpg" alt="Profile of Nivash N" id="profile-img">
+                    <div class="fallback-text" id="img-fallback">This is Nivash avatar</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section pt-100 hidden">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text-box">
+                    <i class="fas fa-quote-left accent-quote"></i>
+                    <p>I am an enthusiastic Information Technology student at Bannari Amman Institute of Technology with a strong interest in building modern and efficient web applications. I enjoy learning new technologies and continuously improving my problem-solving skills. Currently, I am focusing on full stack development and cloud computing to enhance my technical knowledge and career growth.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>IT Student</h3>
+                        <p>Bannari Amman Institute of Technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section pt-100 hidden">
+        <div class="section-container">
+            <h2 class="section-title">Skills Learned</h2>
+            
+            <div class="skills-grid">
+                <!-- Main Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-code"></i> Core Technologies</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <i class="fab fa-html5 skill-icon"></i>
+                            <h4>HTML</h4>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt skill-icon"></i>
+                            <h4>CSS</h4>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js skill-icon"></i>
+                            <h4>JavaScript</h4>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-c skill-icon"></i>
+                            <h4>C</h4>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Currently Learning -->
+                <div class="skill-category learning-category">
+                    <h3 class="category-title"><i class="fas fa-book-open"></i> Currently Learning</h3>
+                    <div class="learning-cards">
+                        <div class="learning-card">
+                            <i class="fas fa-layer-group learning-icon"></i>
+                            <h4>Full Stack Development</h4>
+                            <p>Building end-to-end applications.</p>
+                        </div>
+                        <div class="learning-card">
+                            <i class="fas fa-cloud learning-icon"></i>
+                            <h4>Cloud Computing</h4>
+                            <p>Exploring scalable infrastructure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section pt-100 hidden">
+        <div class="section-container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Interface</h3>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <p>A responsive shopping interface with active cart functionality, product filtering, and modern UI design.</p>
+                        </div>
+                        <button class="btn btn-outline toggle-details-btn">Show Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <div class="project-tech">
+                            <span>React</span><span>Node.js</span>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <p>A full-stack application for managing daily tasks with priority sorting and user authentication features.</p>
+                        </div>
+                        <button class="btn btn-outline toggle-details-btn">Show Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Dashboard</h3>
+                        <div class="project-tech">
+                            <span>JS</span><span>API</span><span>CSS</span>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <p>A dynamic web app that fetches real-time weather data from external APIs and displays interactive forecasts.</p>
+                        </div>
+                        <button class="btn btn-outline toggle-details-btn">Show Details</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section pt-100 hidden">
+        <div class="section-container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-list">
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>IBM Z Day</h3>
+                        <p>Active participant in the global enterprise computing conference.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>ASW</h3>
+                        <p>Recognized for outstanding participation and contribution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section pt-100 hidden">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Name</h4>
+                            <p>Nivash N</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <h4>Institution</h4>
+                            <p>Bannari Amman Institute of Technology (Batch: 2025 – 2029)</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 7845915195</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:nivashnallamaran@gmail.com">nivashnallamaran@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nivash N. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
